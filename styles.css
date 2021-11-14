@@ -298,11 +298,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #fff, #171717), url("../img/venkat.jpg"); }
+      background-image: linear-gradient(to right bottom, #fff, #171717), url("venkat.jpg"); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #fff, #171717), url("../img/senthil.jpg"); }
+      background-image: linear-gradient(to right bottom, #fff, #171717), url("senthil.jpg"); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #fff, #171717), url("../img/virus.jpg"); }
+      background-image: linear-gradient(to right bottom, #fff, #171717), url("virus.jpg"); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/icon-font.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="shortcut icon" type="image/png" href="img/hbd.png">
+
+  <title>HBD PAARI</title>
+</head>
+
+<body>
+
+  <script>
+    window.onload = function() {
+      document.getElementById("bday").play();
+    }
+  </script>
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#home" class="navigation__link"><span></span>Happy B-Day</a></li>
+        <li class="navigation__item"><a href="#about" class="navigation__link"><span></span>Welcome</a></li>
+        <li class="navigation__item"><a href="#feature" class="navigation__link"><span></span>Game</a></li>
+        <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span></span>Squad</a></li>
+        <li class="navigation__item"><a href="#footer" class="navigation__link"><span></span>Final Showdown</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header" id="home">
+    <div class="bg-video">
+      <!-- <audio id="bday" autoplay loop>
+        <source src="img/gplan.mp3" type="audio/mp3">
+        <source src="img/gplan.webm" type="audio/webm">
+      </audio> -->
+      <video class="bg-video__content" autoplay muted loop>
+        <source src="img/Nanbanvid.mp4" type="video/mp4">
+        <source src="img/Nanbanvid.webm" type="video/webm">
+        Your browser is not supported!
+      </video>
+    </div>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">#HBD</span>
+        <span class="heading-primary--sub">Panjavan Paarivendhan</span>
+      </h1>
+
+      <a href="#about" class="btn btn--white btn--animated">Hop In</a>
+    </div>
+  </header>
+
+  <section class="grid-test">
+
+  </section>
+
+
+  <main>
+    <section class="section-about" id="about">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Start with an introduction message
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-2">
+          <h3 class="heading-tertiary u-margin-bottom-small"> Birthday Heading. Example : Sweet Sixteen</h3>
+          <p class="paragraph">
+          Here, you can write some formal greetings or jokes..... <br><br><br> </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small"> Famous Dialogues</h3>
+          <p class="paragraph">
+           Here, you can write something the birthday boy/girl would say frequently.
+          </p>
+        </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img src="img/nanban1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
+            <img src="img/senthil.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
+            <img src="img/nanban2.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+            <!-- width="300" height="200" -->
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section-features" id="feature">
+
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img class="feature-box__icon xicon" src="img/volume.png">
+            <!-- <i class="feature-box__icon icon-basic-bolt"></i> -->
+            <h3 class="heading-tertiary u-margin-bottom-small">A Favourite Audio</h3>
+            <a id = "audio_button" class="btn btn--white">Tap to Listen</a>
+          </div>
+        </div>
+        <!-- </div> -->
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img class="feature-box__icon xicon" src="img/youtube.png">
+            <!-- <i class="feature-box__icon icon-basic-hammer"></i> -->
+            <h3 class="heading-tertiary u-margin-bottom-small">Add a Youtube Video</h3>
+            <a href="https://www.youtube.com/watch?v=mQH3fZMIdwM" target="_blank" class="btn btn--white">See video</a>
+            <!-- <p class="feature-box__text">SRM University of Science & Technology <br>Potheri, SRM Nagar <br>Kattankulathur <br> Tamil Nadu 603203</p> -->
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <!-- <i class="feature-box__icon icon-basic-headset"></i> -->
+            <img class="feature-box__icon xicon" src="img/spotify.png">
+            <h3 class="heading-tertiary u-margin-bottom-small">Create a Playlist</h3>
+            <a href="https://open.spotify.com/album/4oIX27371oNgnMqdg2NeKT?si=qAyZYMRRTuGrv3K9hBd90Q&utm_source=copy-link" target="_blank" class="btn btn--white">Tap to Listen</a>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <img class="feature-box__icon xicon" src="img/location.png">
+            <!-- <i class="feature-box__icon icon-basic-heart"></i> -->
+            <h3 class="heading-tertiary u-margin-bottom-small">A Special Place</h3>
+            <a href="https://maps.app.goo.gl/Tn26U86H7mmoDBci8" target="_blank" class="btn btn--white">Click here</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section-tours" id="section-tours">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Your Individual Wishes
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">
+                  Senthil
+                </span>
+
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Enter some of your</li>
+                  <li>Inside Jokes</li>
+                  <li>Nicknames</li>
+                  <li> </li>
+                  <!-- <li>Noice</li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">The</p>
+                  <p class="card__price-value">CRY BABY</p>
+                </div>
+                <a href="#popup" class="btn btn--white">Read Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">
+                  Venkat
+                </span>
+
+              </h4>
+              <div class="card__details">
+                <ul>
+
+                  <li>Example :</li>
+                  <li>Ivaruku photography na interest uh</li>
+                  <li>Road la pora naai panni ah kooda vida maataan</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">The</p>
+                  <p class="card__price-value">PHOTO GRAPHER</p>
+                </div>
+                <a href="#popups" class="btn btn--white">Read Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">
+                  Virus
+                </span>
+
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Example:</li>
+                  <li>Life is a Race. Run Run.</li>
+                  <li>Karpalikum karnan thiru Virumandi</li>
+                  <li>Everything is fair in love and war. And this is War.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">The</p>
+                  <p class="card__price-value">KIRUMI</p>
+                </div>
+                <a href="#popupa" class="btn btn--white">Read Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CAROUSEL STARTING -->
+
+    <!-- <div id="carousel-single" class="carousel slide add-big-bottom" data-ride="carousel"> -->
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+          <li data-target="#carousel-single" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-single" data-slide-to="1" class=""></li>
+        </ol> -->
+
+    <!-- Wrapper for slides -->
+    <!-- <div class="carousel-inner">
+          <figure class="item preload loaded active" data-img-src="https://picsum.photos/750/400?image=0">
+            <img src="https://picsum.photos/750/400?image=0" alt="">
+            <figcaption class="carousel-caption">
+              img-article </figcaption>
+          </figure>
+          <figure class="item preload loaded" data-img-src="https://picsum.photos/750/400">
+            <img src="https://picsum.photos/750/400?image=0" alt="">
+            <figcaption class="carousel-caption">
+              test – slider </figcaption>
+          </figure>
+        </div> -->
+
+    <!-- Controls -->
+    <!-- <a class="left carousel-control" href="#carousel-single" data-slide="prev">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M15.422 7.406L10.828 12l4.594 4.594L14.016 18l-6-6 6-6z"></path>
+          </svg>
+        </a>
+        <a class="right carousel-control" href="#carousel-single" data-slide="next">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M9.984 6l6 6-6 6-1.406-1.406L13.172 12 8.578 7.406z"></path>
+          </svg>
+        </a>
+      </div> -->
+
+    <!-- CAROUSEL ENDING -->
+
+  </main>
+
+
+
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/venkat2.jpg" alt="Driving" class="popup__img">
+        <img src="img/venkat3.jpg" alt="Speedometer" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">From Sevarkodi Senthil</h2>
+        <p class="popup__text">
+          Write your personalised message wishing them a Happy Birthday/Happy Anniversary. <br> Example : <br> You mean so much to me. Happy Birthday Macha! </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="popups">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/senthil2.jpg" alt="Driving" class="popup__img">
+        <img src="img/senthil3.jpg" alt="Speedometer" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">From Venkat Ramakrishnan</h2>
+        <p class="popup__text">
+          Write your personalised message wishing them a Happy Birthday/Happy Anniversary. <br> Example : <br> You mean so much to me. Happy Birthday Macha!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="popupa">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/virus2.jpg" alt="Driving" class="popup__img">
+        <img src="img/virus3.jpg" alt="Speedometer" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <a href="#section-tours" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">From Virumandi Sandhanam</h2>
+        <p class="popup__text">
+          Write your personalised message wishing them a Happy Birthday/Happy Anniversary. <br> Example : <br> You mean so much to me. Happy Birthday My Dear Student!</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" id="footer">
+    <hr class="hr">
+    <div class="footer__logo-box">
+      <a href="https://colorful-period-56a.notion.site/HAPPY-BIRTHDAY-PAARI-2b2f653ee4ad48cca36933e80279de33" target="_blank" class="btn btn--black">FROM RIYA</a>
+    </div>
+    <div class="footer__logo-box">
+      <h2 class="heading-secondary"> With Love</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer__navigation">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="" class="footer__link">Riya</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Senthil</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Venkat</a></li>
+            <li class="footer__item"><a href="" class="footer__link">Virus</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-1-of-2">
+        <p class="footer__copyright">
+          Built by &nbsp; &nbsp; <a href="#" class="footer__link"> Make It Count </a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+ <script>
+   document.getElementById("audio_button").addEventListener("click", playmusic);
+   function playmusic(){
+     var audio = new Audio("img/audio.mp3");
+     audio.play();
+     console.log("click");
+   }
+ </script>
+</body>
+
+</html>
